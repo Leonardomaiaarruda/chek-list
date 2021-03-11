@@ -1,0 +1,123 @@
+.container{
+    position: absolute;
+    height:25pc;
+    width:20pc;
+    margin:auto;
+    top:0;
+    right: 0;
+    left:0;
+    bottom: 0;
+    backdrop-filter:blur(5px);
+    box-shadow: 0 0 55px black;
+}
+
+.addTxt{
+    position: absolute;
+    height:5px;
+    width:70%;
+    margin:14px auto;
+    top:0;
+    right: 0; 
+    left:0;
+    bottom: 0;
+    outline: none;
+    border:none;
+    padding:20px;
+    padding-right: 50px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: rgb(191, 230, 253);
+}
+
+.addBtn{
+    position: absolute;
+    width: 35px;
+    height:35px;
+    border-radius:25px;
+    margin: auto;
+    top:15px;
+    right: 20px;
+    cursor: pointer;
+    border: none;
+    outline: none;
+    background-color: rgb(2, 22, 34);
+    margin-top:3px;
+}
+.addBtn img{
+    width:45px;
+    margin:auto;
+    top:5px;
+    right:0;
+    left: 0;
+    bottom:0;
+    overflow-y:scroll ;
+    overflow-x: hidden;
+    transition: 0.2s;
+    margin-top:-5px;
+    margin-left: -11px;
+}
+.addBtn img:hover{
+    transform: scale(1.1);
+}
+
+.list{
+    position: absolute;
+    height:80%;
+    width:100%;
+    margin:auto;
+    right: 0;
+    left:0;
+    bottom: 0;
+    color:white;
+    overflow-y: scroll;
+    overflow-x:hidden;
+}
+
+.list::-webkit-scrollbar {
+    -webkit-appearance:none;
+    appearance:none;
+}
+
+.element{
+    position: relative;
+    height: fit-content;
+    width:55%;
+    right:0;
+    left:8px;
+    text-align: left;
+    transition: 0.2s;
+    padding: 10px;
+    background:rgb(105, 4, 131);
+    cursor: pointer;
+    border-radius: 2px;
+    padding-right: 80px;
+    word-wrap: break-word;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin:10px;
+}
+
+.element:hover{
+    transform: scale(1.1);
+}
+.trick{
+    position: absolute;
+    margin:auto;
+    height:20px;
+    top:0;
+    bottom:0;
+    right: 40px;
+    background-color: rgb(255, 255, 255);
+    border-radius: 2px;
+
+}
+
+.dustbin{
+    position: absolute;
+    margin:auto;
+    height:25px;
+    top:0;
+    bottom:0;
+    right: 0px;
+    filter: grayscale(1);
+}
+
+
