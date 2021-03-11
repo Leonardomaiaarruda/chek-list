@@ -1,0 +1,10 @@
+@media screen and (max-width: 768px){
+    .container{
+        position: absolute;
+        width:98%;
+        height:98%;
+        box-shadow: 0 0 10px black;
+    }
+
+    
+}
