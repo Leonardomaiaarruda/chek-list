@@ -4,7 +4,7 @@
 .container{
     position: absolute;
     width:50%;
-    height:50pc;
+    height:30pc;
     margin:auto;
     top:0;
     right: 0;
@@ -15,7 +15,7 @@
 }
 .container h2{
     text-align: center;
-    margin-top: -4px;
+    margin-top: 4px;
 }
 .addTxt{
     position: absolute;
@@ -39,8 +39,8 @@
     height:35px;
     border-radius:25px;
     margin: auto;
-    top:32px;
-    right: 20px;
+    top:7%;
+    right:12%;
     cursor: pointer;
     border: none;
     outline: none;
@@ -123,6 +123,3 @@
     right: 0px;
     filter: grayscale(1);
 }
-
-
-/*/*
